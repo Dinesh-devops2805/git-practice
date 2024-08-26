@@ -9,4 +9,12 @@ then
     exit 1
 fi 
 
-dnf install git -y
+dnf list installed git 
+
+if [ $? -ne 0 ]
+then 
+    echo "Git is not installed. Installing it now..."
+    dnf install git -y 
+else
+    echo "Git is already installed"
+fi
