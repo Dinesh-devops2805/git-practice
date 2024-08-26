@@ -1,11 +1,17 @@
 #!/bin/bash
 
-USERID=$(id -u)
-#echo "user ID is: $USERID"
+# USERID=$(id -u)
+# #echo "user ID is: $USERID"
 
-if [ $USERID -ne 0 ]
-then    
-    echo "Please run this script with root privileges"
-fi 
+# if [ $USERID -ne 0 ]
+# then    
+#     echo "Please run this script with root privileges"
+# fi 
 
-dnf install git -y
+# dnf install git -y
+
+ls -ltr
+
+lasdjka -ls 
+
+ls -l
