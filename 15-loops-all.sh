@@ -28,5 +28,5 @@ CHECK_ROOT
 # usage - sh 15-loops-all.sh git mysql postfix nginx
 for package in $@  # $@ refers to all arguments passed to it
 do 
-    echo $package 
+    echo $package
 done 
