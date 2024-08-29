@@ -53,7 +53,6 @@ then
             echo "Deleting files: $file"
             m -rf $file
         done <<< $FILES 
-    
     else
         echo "Zipping the files is failed"
         exit 1 
