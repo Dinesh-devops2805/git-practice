@@ -13,3 +13,4 @@ do
         echo "$PARTITION is more than $DISK_THRESHOLD, current value: $USAGE. Please check"
     fi
 done <<< $DISK_USAGE
+
