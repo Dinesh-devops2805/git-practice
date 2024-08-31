@@ -5,6 +5,7 @@ DIR=$1
 OLD_STRING=$2
 NEW_STRING=$3
 
+
 # Print usage message if no arguments are provided
 if [ -z "$DIR" ] || [ -z "$OLD_STRING" ] || [ -z "$NEW_STRING" ]
 then
@@ -20,6 +21,15 @@ for file in "${FILES[@]}"; do
   sed -i "s/$OLD_STRING/$NEW_STRING/g" "$file"
   echo "Replaced '$OLD_STRING' with '$NEW_STRING' in $file"
 done
+
+mkdir devops
+if [ $DIR -ne 0 ]
+then
+echo "Directory does not exist"
+exit 1
+fi
+
+
 
 
 

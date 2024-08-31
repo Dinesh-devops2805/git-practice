@@ -5,7 +5,6 @@ DEST_DIR=$2
 DAYS=${3:-14}   # If $3 is empty, default is 14 days 
 TIMESTAMP=$(date +%Y-%m-%d-%H-%M-%S)
 
-
 R="\e[31m"
 G="\e[32m"
 N="\e[0m"
