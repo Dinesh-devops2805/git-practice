@@ -6,7 +6,8 @@
 # 3. find and replace the specific string
 
 #You need to find and replace a specific string in multiple text files in a directory in shell script
-#You can use the following script to achieve this:
+
+
 
 DIR=$1    # 
 STRING=$2   # arguement
